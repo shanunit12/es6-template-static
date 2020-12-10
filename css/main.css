@@ -8,6 +8,7 @@
 .index .navbar-inverse a.navbar-brand[href="."]
 {
     color: white;
+    padding-right:30px;
 }
 
 main {
