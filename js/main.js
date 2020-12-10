@@ -1,10 +1,6 @@
 
   
-import "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js";
-import "https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.js";
-import "https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js";
-import aPages from "../pages/index.js";
-import aItems from "../items/index.js";
+i
 
 class Page {
     constructor(){
