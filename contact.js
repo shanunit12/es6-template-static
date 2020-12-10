@@ -8,5 +8,8 @@ module.exports = class extends Page {
         return `
         ${this.requireMarked('_pages/contact.md')}
         `;
+    } {
+     this.sURLToEmailer = "https://tranquil-badlands-69388.herokuapp.com/send/";
     }
 }
+

@@ -8,7 +8,7 @@
 .index .navbar-inverse a.navbar-brand[href="."]
 {
     color: white;
-    padding-right:30px;
+
 
 }
 
@@ -235,7 +235,9 @@ b{
       color:#39304A;
 }
                      
-
+.navbar-inverse .navbar-nav > li > a {
+    padding-right:30px;
+}
 
 
                      
