@@ -8,5 +8,7 @@ module.exports = class extends Page {
         return `
         ${this.requireMarked('_pages/index.md')}
         `;
+        
     }
+   
 }
