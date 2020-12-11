@@ -11,6 +11,6 @@ module.exports = class extends Page {
         
         
     }
-    {this.sUrlToEmailer = "https://tranquil-badlands-69388.herokuapp.com/send/";}
+   
    
 }

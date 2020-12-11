@@ -1,10 +1,70 @@
- <form action="https://tranquil-badlands-69388.herokuapp.com/send/" method= "POST">
+ <!DOCTYPE html>
+<html lang="en" class="about">
+    <head>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/main.css" />
+        
+    <title>Contact</title>
+    </head>
+    <body>
+    <main>
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=".">Shannon Halycz</a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+        
+<form action="https://tranquil-badlands-69388.herokuapp.com/send/" method= "POST">
 
-    <h2> Contact Me</h2>
+    <h1> Contact Me</h1>
+    <hr>
 
     <p> <label> Name: <input name="name" placeholder="Enter your name" required/> </label> </p>
   
     <p> <label> Email: <input name="email" placeholder="Enter your email address" required/> </label> </p>
       <p> <label >Message:  <textarea  name="message" required> </textarea ></label>  </p> 
-      <p><input id="button" type="submit" value="Send" required/> <input id="button" type="reset"/> </p>
+      <p><input id="bsend" type="submit" value="Send" required/>  </p>
     </form>
+        
+          <a id="twitter" href="https://twitter.com/shannonhalycz_?lang=en"   >
+                       
+                            <img id="timg" src="..//img//twitter1.svg" style="width:80px; cursor:pointer;" alt="social"/> </a>
+                  
+                        <a id="intsa" href="https://www.instagram.com/shannonhalycz/?hl=en"  style="width:80px; cursor:pointer;" >
+                          
+                            <img id="limg" src="..//img//instagram.svg" style="width:86px; cursor:pointer;  padding-right:5px; " alt="social"/>
+                 
+                        </a>
+            
+             
+             
+                        <a id="linkdin" href="https://www.linkedin.com/in/shannon-halycz-3b811414a/"  style=" cursor:pointer;" >
+                          
+                            <img id="limg3" src="..//img//linkedin1.svg" style="width:80px;  cursor:pointer; " alt="social"/>
+                 
+                        </a>
+        
+         </main>
+    
+<footer>
+    &copy; <script>document.write(new Date().getFullYear())</script> Shannon Halycz
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+        
+    </body>
+</html>
