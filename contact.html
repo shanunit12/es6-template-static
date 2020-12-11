@@ -1,59 +1,10 @@
+ <form action="https://tranquil-badlands-69388.herokuapp.com/send/" method= "POST">
 
-<!DOCTYPE html>
-<html lang="en" class="contact">
-    <head>
-    
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/main.css" />
-        
-    <title>Contact</title>
-    </head>
-    <body>
-    <main>
-        
-        <!-- your header here -->
-        
-        
-<div class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href=".">Portfolio of Shannon Halycz</a>
-    </div>
-    <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-</div>
-        
-    
-<form class="form" id="contact-form" action="https://tranquil-badlands-69388.herokuapp.com/send/" method="POST"> 
-   < input type="text" placeholder="Name" required/> <br>
-     < input type="email" placeholder="Enter your Email" required/>  <br>
-    <textarea  name="message" placeholder="Enter your Message" required> </textarea>
-    <br>
-    <br>
-     < button type="submit">Send Message</button>
-    
-    
-</form>
+    <h2> Contact Me</h2>
 
-        
-    </main>
-    
-<footer>
-    &copy; <script>document.write(new Date().getFullYear())</script> Shannon Halycz
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
-        
-    </body>
-</html>
-        
+    <p> <label> Name: <input name="name" placeholder="Enter your name" required/> </label> </p>
+  
+    <p> <label> Email: <input name="email" placeholder="Enter your email address" required/> </label> </p>
+      <p> <label >Message:  <textarea  name="message" required> </textarea ></label>  </p> 
+      <p><input id="button" type="submit" value="Send" required/> <input id="button" type="reset"/> </p>
+    </form>
