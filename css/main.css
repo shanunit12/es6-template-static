@@ -63,6 +63,12 @@ body{
     overflow-x: hidden;
 }
 
+#resource{
+    font-size:30px;
+    margin-right:auto;
+    margin-left:auto;
+    width:20%;
+}
 aside{
     width:50%;
     margin-right:auto;
