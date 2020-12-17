@@ -16,10 +16,11 @@ main {
     min-height: calc(100vh - 2em);
 }
 footer {
-    height: 2em;
+    height: 3em;
     background-color:black;
     color:white;
     
+margin-bottom:0;
   
 }
 
@@ -29,14 +30,20 @@ body{
     overflow-x: hidden;
 }
 
-
+aside{
+    width:50%;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 50px 0;
+}
 
   img{
   width:660px; 
       padding-bottom:20px;
       padding-top:10px;
       padding-left:30px;
-     
+      
+    
 
        
   }
@@ -244,7 +251,7 @@ b{
                  
                 margin-left: auto;
                 margin-right: auto;
-                width: 50%;
+                width: 60%;
             padding-bottom:50px;
                 
      
@@ -316,38 +323,127 @@ input{
                    
                        }
          
-#limg {
 
-    transition:ease-out 0.3s; 
+
+@media screen and (max-width: 991px) {
+#figmah{
+  margin-right:auto;  
+    margin-top:auto;
+      padding-top:40px;
+       
+    
+    
+}
+    #mylsh{
+  margin-right:auto;  
+    margin-top:auto;
+      padding-top:40px;
+
+    
+}
+        #legoh{
+  margin-right:auto;  
+    margin-top:auto;
+      padding-top:40px;
+       
+            
+    
+}
+    img{
+        width:300px;
+    }
+  #skillh{
+      margin-left:90%; 
+    margin-top:10%;
+                  padding-top:100px;
+}
+
+#skill-list{
+    width:100%;
+     margin-left:80%;
+    padding-bottom:100px;
   
+   
 }
-
-#limg:hover{
-
-    transform:scale(.75);
-    transition: transform 300ms ease-in;
+.abouthr{
+    width:49%;
+       margin-left:90%;
 }
+    #aboutp{
+        width:90%;
+    }
+    form{       
+                width: 100%; 
+                
+            }
+    hr{
+    width:20%;    
+    }
+   
+    .fp{
+        width:80%;
+    } 
+    .fh{
+        width:80%;
+    }
 
-
-#timg{
-       
-    transition:ease-out 0.3s; 
-    margin-left:505px;
-}
-
-#timg:hover{
+    #figmah{
+        width:90%;
+    }
+    #figmap{
+              width:80%; 
+        margin-top:20px;
+     margin-right:50px;
+    }
+    
+    #one {
+        margin-bottom:400px;
+    }
+    #b1{
+     
+   
+    margin-top:10px;
+    margin-right:55%;
+   
  
-    transform:scale(.75);
-    transition: transform 300ms ease-in;
+    }
+    
+    #two {
+    margin-bottom:400px;
+    }
+    
+    #mylsh{
+  width:90%;
 }
-#limg3 {
-       
-    transition:ease-out 0.3s; 
+#mylsp{
+      width:80%; 
+        margin-top:20px;
+     margin-right:50px;
 }
+#b2{
+   margin-top:10px;
+    margin-right:55%;
 
-#limg3:hover{
- 
-    transform:scale(.75);
-    transition: transform 300ms ease-in;
 }
-                     
+     #three {
+    margin-bottom:400px;
+    }
+    
+    #legoh{
+  width:90%;
+}
+#legop{
+      width:80%; 
+        margin-top:20px;
+     margin-right:50px;
+}
+#b3{
+   margin-top:10px;
+    margin-right:55%;
+
+}
+    aside{
+        width:100%;
+    }
+
+}
